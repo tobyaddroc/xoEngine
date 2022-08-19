@@ -209,9 +209,9 @@ ClientTurn xoEngine::checkWin() {
 		)
 		return o;
 	else if (
-		(this->pool.object1 & this->pool.object2 & this->pool.object3 &
-			this->pool.object4 & this->pool.object5 & this->pool.object6 &
-			this->pool.object7 & this->pool.object8 & this->pool.object9
+		(this->pool.object1 && this->pool.object2 && this->pool.object3 &&
+			this->pool.object4 && this->pool.object5 && this->pool.object6 &&
+			this->pool.object7 && this->pool.object8 && this->pool.object9
 			) != n)
 		return t;
 }
